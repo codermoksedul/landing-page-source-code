@@ -17,6 +17,6 @@
     "build-vite": "vite build"
   },
   "dependencies": {
-    "eslint": "^8.47.0"
+    "gitignore": "^0.7.0"
   }
 }

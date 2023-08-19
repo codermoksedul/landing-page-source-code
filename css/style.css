@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px !important;
+  position: relative;
+}
+img {
+  max-width: 100%;
+}
 #preloader {
   position: fixed;
   width: 100%;
@@ -31,4 +39,10 @@
   100% {
     transform: rotate(360deg);
   }
+}
+#Enroll_box {
+  background: url(../img/enrroll-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
